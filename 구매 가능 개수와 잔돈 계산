@@ -1,0 +1,18 @@
+# 3번 문제
+# 내 풀이
+price = int(input("사탕 가격을 입력하세요: "))
+money = int(input("가진 돈을 입력하세요: "))
+print(f'최대로 살수 있는 사탕 개수:{int(money / price)} \n 남는 잔돈 계산: {int(money % price)}')
+
+# 구매할 수 있는 사탕 갯수, 남는 금액
+# 교수님 한줄 풀이
+price_and_budget = input('사탕 가격과 가지고 있는 돈 => ')
+price, budget = map(int, price_and_budget.split(','))
+price = int(price)
+budget = int(budget)
+
+# 교수님 여러줄 풀이
+# price = int(input('사탕 가격 => '))
+# budget = int(input('가지고 있는 돈 => '))
+ print(f'구매할 수 있는 사탕 갯수 : {budget // price}')
+ print(f'남는 금액 : {budget % price}')
