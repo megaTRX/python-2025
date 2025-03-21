@@ -1,0 +1,9 @@
+# 예제 6번
+# 일주일 동안 일한 시간과 시급 입력
+# 총 주급 = (일한 시간 x 시급)
+
+time = int(input("일한 시간을 입력하세요: "))
+time_wage = int(input("시급을 입력하세요: "))
+week_wage = time * time_wage
+print(f'총 주급은 {week_wage} 입니다.')
+
